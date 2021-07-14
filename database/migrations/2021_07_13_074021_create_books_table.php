@@ -19,7 +19,7 @@ class CreateBooksTable extends Migration
             $table->string('author');
             $table->string('description');
             $table->integer('book_no');
-            $table->date("date_ublished");
+            $table->date("date_published");
             $table->bigInteger('contained_in')->unsigned()->nullable();
             $table->date("acquired_on");
             $table->timestamps();
