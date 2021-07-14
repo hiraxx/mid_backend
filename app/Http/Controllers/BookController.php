@@ -27,8 +27,8 @@ class BookController extends Controller
             'author' => 'string|required',
             'description' => 'string|required',
             'book_no' => 'numeric|required',
+            'date_published' => 'date|required',
             'acquired_on' => 'date|required',
-            'status' => 'string|required',
         ]);
 
         try {

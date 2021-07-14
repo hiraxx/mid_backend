@@ -14,9 +14,9 @@ class Book extends Model
         'author',
         'description',
         'book_no',
+        'date_published',
         'contained_on',
         'acquired_on',
-        'status'
     ];
 
     public function container() {
